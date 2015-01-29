@@ -1,10 +1,34 @@
 require "spec_helper"
 
-class Tradebot
-  def hit(pins)
+#Receives JSON from prediction API
+describe FuturePrices do
+
+
+end
+
+
+
+
+#
+
+=begin
+require 'dotenv'
+Dotenv.load
+
+#Authentication BTF
+describe Authentication do
+  before do
+    @hash = Hash.new({:hello => 'world'})
   end
 
-  def score
-    0
+  it "should return a blank instance" do
+    Hash.new.should == {}
   end
 end
+
+#Ticket BTF
+
+#Pings prediction API
+
+
+=end

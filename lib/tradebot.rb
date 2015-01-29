@@ -1,10 +1,10 @@
 require "tradebot/version"
+require "bitfinex"
+require "httparty"
+require 'json'
 
-class Tradebot
-  def hit(pins)
-  end
+class FuturePrices
 
-  def score
-    -1
-  end
+  response = HTTParty.get('http://www.btcpredictions.com/api.php')
+
 end

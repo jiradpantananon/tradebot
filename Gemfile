@@ -1,4 +1,15 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in my_lib.gemspec
+# Remember to specify the gem's dependencies in tradebot.gemspec
+
+#for .env file
+gem 'dotenv-rails', :groups => [:development, :test]
+
+
 gemspec
+
+gem 'bitfinex'
+gem 'httparty'
+gem 'multi_xml'
+gem 'json'
+
